@@ -1,0 +1,12 @@
+diff --git a/hailort/libhailort/src/vdma/vdma_device.hpp b/hailort/libhailort/src/vdma/vdma_device.hpp
+index 5aea085..bfc1f3a 100644
+--- a/hailort/libhailort/src/vdma/vdma_device.hpp
++++ b/hailort/libhailort/src/vdma/vdma_device.hpp
+@@ -19,6 +19,7 @@
+ #include "os/hailort_driver.hpp"
+ #include "vdma/channel/interrupts_dispatcher.hpp"
+ 
++//Just a comment - Nadave
+ 
+ namespace hailort
+ {
