@@ -1,0 +1,14 @@
+diff --git a/hailort/hailortcli/hailortcli.cpp b/hailort/hailortcli/hailortcli.cpp
+index d731dc1..168739a 100644
+--- a/hailort/hailortcli/hailortcli.cpp
++++ b/hailort/hailortcli/hailortcli.cpp
+@@ -223,7 +223,7 @@ int main(int argc, char** argv) {
+     console_sink->set_pattern("[%n] [%^%l%$] %v");
+     spdlog::set_default_logger(std::make_shared<spdlog::logger>("HailoRT CLI", console_sink));
+ 
+-    CLI::App app{"HailoRT CLI"};
++    CLI::App app{"[nadave] HailoRT CLI"};
+     HailoRTCLI cli(&app);
+     return cli.parse_and_execute(argc, argv);
+ }
+
